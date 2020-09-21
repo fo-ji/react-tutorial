@@ -8,11 +8,11 @@ export default class Layout extends React.Component {
   //   this.name = "fo-ji";
   // }
   render() {
+    let components = [<Header />, <Footer />];
     return (
     // <h1>It's {this.name}!</h1>
     <div>
-      <Header />
-      <Footer />
+      {components}
     </div>
     );
   }
