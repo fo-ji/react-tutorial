@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default class Layout extends React.Component {
   // constructor() {
@@ -11,8 +12,7 @@ export default class Layout extends React.Component {
     // <h1>It's {this.name}!</h1>
     <div>
       <Header />
-      {/* <Header />
-      <Header /> */}
+      <Footer />
     </div>
     );
   }
